@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient
+                android:type="radial"
+                android:gradientRadius="@dimen/bgR"
+                android:startColor="@color/bgGradientS"
+                android:endColor="@color/bgGradientE"/>
+        </shape>
+    </item>
+
+    <item android:drawable="@drawable/bg_images" />
+</layer-list>
